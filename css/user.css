@@ -1,0 +1,37 @@
+    body {
+            background: #1a1a2e !important; /* Super dark body background */
+            color: #e0e0e0 !important; /* Slightly dimmed light text for super dark feel */
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* Navbar Styling - Super dark, matching card */
+        .navbar {
+            background: #1f1f2f !important; /* Super dark variant of card color */
+        }
+
+        .navbar-brand {
+            color: #e0e0e0 !important;
+        }
+
+        .navbar-toggler {
+            background: #1f1f2f !important;
+            border-color: #2c2c3e !important;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28160, 160, 160, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* Dark toggler icon */
+        }
+
+        .navbar .nav-link {
+            color: #a0a0a0 !important; /* Dimmed gray for super dark */
+            margin: 0 5px;
+            border-radius: 10px;
+            transition: 0.3s;
+            font-size: 15px;
+        }
+
+        .navbar .nav-link:hover,
+        .navbar .nav-link.active {
+            background: linear-gradient(90deg, #6a11cb, #2575fc);
+            color: #e0e0e0 !important; /* Dimmed white on hover */
+        }
