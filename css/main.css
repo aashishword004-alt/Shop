@@ -1091,3 +1091,6 @@
         .btn-primary:hover {
             background: linear-gradient(90deg, #2575fc, #6a11cb);
         }
+        #navbarNav{
+            margin-left: 30%;
+        }
