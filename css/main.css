@@ -1091,3 +1091,12 @@
         .btn-primary:hover {
             background: linear-gradient(90deg, #2575fc, #6a11cb);
         }
+        #image{
+            height: 50%;
+            margin-left: 30%;
+            margin-top: 5%;
+            margin-bottom: 0;
+            border-color: #0e0e24;
+            box-sizing: var(--bs-table-accent-bg);
+            
+        }
